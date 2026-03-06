@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Connect | Student Media</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="images/school-logo.png" alt="School Logo">
+        <span>CAMPUS CONNECT</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="departments.html">Departments</a>
+        <a href="student-media.html">Student Media</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="card media-box">
+      <h1>Student Media</h1>
+      <p>This page practices <b>iframe</b> (online video) and <b>video</b> (local file).</p>
+
+      <h2>1) Embedded Video (YouTube)</h2>
+      <iframe
+        src="https://www.youtube.com/embed/0E00Zuayv9Q"
+        title="School video"
+        allowfullscreen>
+      </iframe>
+
+      <h2>2) Local Video (from your PC)</h2>
+      <video controls>
+        <source src="media/campus-tour.mp4" type="video/mp4">
+      </video>
+
+      <p>
+        If the local video doesn’t play, make sure the file is inside <b>media/</b>
+        and the name matches exactly.
+      </p>
+    </div>
+
+    <div class="card">
+      <a class="btn-outline" href="index.html">← Back to Home</a>
+      <a class="btn" href="departments.html">Go to Departments →</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>Campus Connect | HTML + CSS only | Notepad Project</p>
+  </div>
+
+</body>
+</html>
